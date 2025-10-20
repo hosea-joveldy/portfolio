@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="flex justify-center gap-8">
+        <div className="flex justify-center flex-wrap gap-8">
           {projects.map((project, key) => (
             <a key={key} href={project.demoUrl} target="_blank">
               <div

@@ -36,6 +36,7 @@ export const ContactSection = () => {
                   <h4 className="font-medium"> Email</h4>
                   <a
                     href="mailto:hoseajovel@gmail.com"
+                    target="_blank"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     hoseajovel@gmail.com
@@ -50,6 +51,7 @@ export const ContactSection = () => {
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="https://wa.me/081223956015"
+                    target="_blank"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +62 8122-3956-015
